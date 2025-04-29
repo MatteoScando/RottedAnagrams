@@ -31,7 +31,8 @@
   "main": "./src/index.ts",
   "scripts": {
     "start": "tsx ./src/index.ts",
-    "test": "tsx ./src/inizialize.ts"
+    "asnw": "tsx ./src/inizialize.ts",
+    "test": "tsx ./src/test.ts"
   },
   "dependencies": {
     "discord.js": "^14.19.2",
