@@ -83,7 +83,9 @@ Made with ❤️ (e un po' di odio) by PazziDellaLVCE.
 2. **Sezione "Changelog" (opzionale)**:
    ## 📜 Changelog
    - `v0.0.1-alpha`: Il bot esiste (miracolo).
+---
 
-Possibile vostra reazione a fine dell'uso:
-
-![Dillom Rage Dog](https://media1.tenor.com/m/-SoMK6niJR0AAAAd/dillom-rage-dog.gif)
+<p align="center">
+  <strong>Possibile vostra reazione a fine dell'uso:</strong><br><br>
+  <img src="https://media1.tenor.com/m/-SoMK6niJR0AAAAd/dillom-rage-dog.gif" alt="Dillom Rage Dog">
+</p>
