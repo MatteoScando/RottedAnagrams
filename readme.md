@@ -25,6 +25,7 @@
 3. Crea un file .env con il tuo token di Discord:
     ```env
     DISCORD_TOKEN="il_tuo_token_qui"
+    APPLICATION_ID="1234567890123456789"
     ```
 4. Avvia il bot (e prega):
     ```bash
