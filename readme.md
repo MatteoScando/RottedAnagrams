@@ -31,12 +31,12 @@
     npm start
     ```
 
-**Nota**: Funziona solo se credi nella magia degli anagrammi.
+**Nota**: Funziona solo se credi nella magia degli anagrammi(altrochè i mass-media).
 
 ---
 
 ## 💀 Comandi
-- `/aneurysm <testo>`: Genera un anagramma che distruggerà la tua frase originale.
+- `/aneurysm <testo>`: Genera un anagramma che distruggerà(stravolgerà) la tua frase originale.
 - `/help`: Teoricamente dovrebbe aiutarti (spoiler: non lo farà).
 
 ---
@@ -46,7 +46,8 @@
   **R**: È un feature, non un bug. Vedi licenza WTFPL.
 
 - **D**: Come contribuire?  
-  **R**: 1. Forkka la repo (se hai voglia, importante, consigliabile una buona dose).
+  **R**:
+  1. Forkka la repo (se hai voglia, importante, consigliabile una buona dose).
   2. Aggiungi più caos.
   3. Fai una PR con scritto "trust me bro" nel messaggio.
 
