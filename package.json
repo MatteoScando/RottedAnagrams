@@ -1,0 +1,38 @@
+{
+  "name": "rotted-anagrams",
+  "version": "0.0.1-alpha",
+  "description": "Discord bot that mutates your messages into cursed anagram abominations (legacy v0.0.3-alpha // WARNING: probabilistic string permutation nightmare fuel).",
+  "keywords": [
+    "discord-bot",
+    "anagram-generator",
+    "text-manipulation",
+    "string-permutation",
+    "Natural language abuse",
+    "Markov chain nonsense",
+    "chaos-engine",
+    "cursed-anagrams",
+    "brainrot-technology",
+    "technically-a-feature",
+    "works-on-my-machine",
+    "Spaghetti code approved",
+    "Tumblr-level word scrambler"
+  ],
+  "homepage": "https://github.com/MatteoScando/RottedAnagrams#readme",
+  "bugs": {
+    "url": "https://github.com/MatteoScando/RottedAnagrams/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatteoScando/RottedAnagrams.git"
+  },
+  "license": "WTFPL",
+  "author": "PazziDellaLVCE",
+  "type": "module",
+  "main": "./src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "discord.js": "^14.19.2"
+  }
+}
