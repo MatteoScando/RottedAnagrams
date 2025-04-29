@@ -46,8 +46,7 @@
   **R**: È un feature, non un bug. Vedi licenza WTFPL.
 
 - **D**: Come contribuire?  
-  **R**:
-  1. Forkka la repo (se hai voglia, importante, consigliabile una buona dose).
+  **R**: 1. Forkka la repo (se hai voglia, importante, consigliabile una buona dose).
   2. Aggiungi più caos.
   3. Fai una PR con scritto "trust me bro" nel messaggio.
 
