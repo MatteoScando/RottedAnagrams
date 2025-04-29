@@ -20,11 +20,11 @@
     ```
 2. Installa le dipendenze:
     ```bash
-    npm install
+    npm install (abbreviato --> npm i)
     ```
 3. Crea un file .env con il tuo token di Discord:
     ```env
-    DISCORD_TOKEN=il_tuo_token_qui
+    DISCORD_TOKEN="il_tuo_token_qui"
     ```
 4. Avvia il bot (e prega):
     ```bash
@@ -47,7 +47,7 @@
 
 - **D**: Come contribuire?  
   **R**:
-  1. Forkka la repo.
+  1. Forkka la repo (se hai voglia, importante, consigliabile una buona dose).
   2. Aggiungi più caos.
   3. Fai una PR con scritto "trust me bro" nel messaggio.
 
@@ -57,15 +57,15 @@
 WTFPL (Do What The Fuck You Want Public License).  
 Letteralmente. Non siamo responsabili se il bot:
 - Crea anagrammi blasfemi.
-- Causa crisi esistenziali.
-- Si autodistrugge alle 3AM.
+- Causa crisi esistenziali(anche a livello di metabolismo).
+- Si autodistrugge alle 3 di notte (forse c'è più probabilità di soppravivenza in un campo minato).
 
 ---
 
 ## 🌟 Roadmap (aka "TODO.md sneak peek")
 - Aggiungi comando `/insulta` (per completare l'esperienza tossica).
 - Supporto per emoji (perché no?).
-- Modalità "T9" (anagrammi da tastiera numerica, retro-compatibilità con Nokia 3310).
+- Modalità "T9" (anagrammi da tastiera numerica, retro-compatibilità con Nokia 3310 (sempre con un grande forse)).
 
 Full TODO: [TODO.md](./TODO.md)
 
@@ -82,7 +82,7 @@ Made with ❤️ (e un po' di odio) by PazziDellaLVCE.
    ![Version](https://img.shields.io/badge/version-0.0.1--alpha-purple)
 
 2. **GIF Demo**: Se hai una demo, aggiungi una GIF tipo:
-   ![demo](./assets/demo.gif)
+   ![Dillom Rage Dog](https://media1.tenor.com/m/-SoMK6niJR0AAAAd/dillom-rage-dog.gif)
 
 3. **Sezione "Changelog" (opzionale)**:
    ## 📜 Changelog
