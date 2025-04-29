@@ -80,10 +80,10 @@ Made with ❤️ (e un po' di odio) by PazziDellaLVCE.
 1. **Badges**: Aggiungi badges stile "made with chaos" usando shields.io:
    ![License](https://img.shields.io/badge/license-WTFPL-red)
    ![Version](https://img.shields.io/badge/version-0.0.1--alpha-purple)
-
-2. **GIF Demo**: Se hai una demo, aggiungi una GIF tipo:
-   ![Dillom Rage Dog](https://media1.tenor.com/m/-SoMK6niJR0AAAAd/dillom-rage-dog.gif)
-
-3. **Sezione "Changelog" (opzionale)**:
+2. **Sezione "Changelog" (opzionale)**:
    ## 📜 Changelog
    - `v0.0.1-alpha`: Il bot esiste (miracolo).
+
+Possibile vostra reazione a fine dell'uso:
+
+![Dillom Rage Dog](https://media1.tenor.com/m/-SoMK6niJR0AAAAd/dillom-rage-dog.gif)
