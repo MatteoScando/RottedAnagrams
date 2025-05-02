@@ -6,12 +6,13 @@
 
 ## 😵‍💫 Creazione anagramma
 - [ ] Aggiungere la possibilità di generare un'anagramma tramite comando `/aneurysm <frase>`.
+- [ ] Aggiungere la possibilità di generare la frase del giorno `/dailyShit`.
 
 ## 🖱️ Coding
-- [ ] creare codice per gestire comandi discord.
-- [ ] Collegare bot con un server discord.
+- [X] creare codice per gestire comandi discord.
+- [X] Collegare bot con un server discord.
 - [ ] Testare bot su chat singola.
-- [ ] Ricevere dati dalla chat.
+- [X] Ricevere dati dalla chat.
 - [ ] Identificare api/libreria da usare per generare anagramma.
 - [ ] Creare prompt da dare all'api.
 - [ ] Gestire risposta dall'api e mandarla alla chat.
