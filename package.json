@@ -31,7 +31,7 @@
   "main": "./src/index.ts",
   "scripts": {
     "start": "tsx ./src/index.ts",
-    "test": "tsx ./src/inizialize.ts"
+    "slash:updater": "tsx ./src/slashUpdater.ts"
   },
   "dependencies": {
     "discord.js": "^14.19.2",
