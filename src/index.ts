@@ -1,24 +1,48 @@
+import { Client, Collection, Events, GatewayIntentBits } from 'discord.js';
 import dotenv from 'dotenv';
+import alphaButton from './commands/utility/alpha';
+
 dotenv.config();
 
-import { Client, GatewayIntentBits } from 'discord.js';
+const client = new Client({ intents: [GatewayIntentBits.Guilds] });
 
-const client = new Client({
-    intents: [
-
-    ]
+// Estendi il tipo Client per includere la collection dei comandi
+declare module 'discord.js' {
+    export interface Client {
+        commands: Collection<string, typeof alphaButton>
+    }
 }
-);
 
-    //     intents: [
-    //     GatewayIntentBits.Guilds,
-    //     GatewayIntentBits.GuildMessages,
-    //     GatewayIntentBits.GuildMembers,
-    //     GatewayIntentBits.DirectMessages
-    // ],
+// Inizializza la collection dei comandi
+client.commands = new Collection();
 
-client.login(process.env.DISCORD_TOKEN)
+// Aggiungi il comando alpha alla collection
+client.commands.set(alphaButton.data.name, alphaButton);
 
-client.on('messageCreate', async (message) => {
-    console.log(message);
-})
+client.once(Events.ClientReady, () => {
+    console.log('Ready!');
+});
+
+client.on(Events.InteractionCreate, async interaction => {
+    if (!interaction.isChatInputCommand()) return;
+
+    const command = client.commands.get(interaction.commandName);
+
+    if (!command) {
+        console.error(`No command matching ${interaction.commandName} was found.`);
+        return;
+    }
+
+    try {
+        await command.execute(interaction);
+    } catch (error) {
+        console.error(error);
+        if (interaction.replied || interaction.deferred) {
+            await interaction.followUp({ content: 'There was an error while executing this command!', ephemeral: true });
+        } else {
+            await interaction.reply({ content: 'There was an error while executing this command!', ephemeral: true });
+        }
+    }
+});
+
+client.login(process.env.DISCORD_TOKEN);
